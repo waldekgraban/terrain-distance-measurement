@@ -20,7 +20,7 @@ void setup() {
     pinMode (pin2 ,INPUT_PULLUP);
 
     lcd.begin(16, 2);
-    lcd.print("MEASURNING WHEEL");
+    lcd.print("MEASURNING");
 
     PreviousState = digitalRead(pin1);
 }
