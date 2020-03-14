@@ -5,15 +5,15 @@ LiquidCrystal lcd(5, 6, 7, 8, 9, 10);
 int pin1 = 2;
 int pin2 = 3;
 
-int PreviousState;
-int CurrentState;
 int Pos = 0;
-
-const float radiusOfWheel = 3.25;
-const int stepsPerRotation = 40;
-const float pi = 3.14;
+int CurrentState;
+int PreviousState;
 
 float distance = 0;
+
+const float pi = 3.14;
+const int stepsPerRotation = 40;
+const float radiusOfWheel  = 3.25;
 
 void setup() {
     pinMode (pin1 ,INPUT_PULLUP);
